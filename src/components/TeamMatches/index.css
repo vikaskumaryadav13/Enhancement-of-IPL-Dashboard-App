@@ -1,8 +1,7 @@
 /* Write your CSS here */
-.team-matches-route-container {
+.team-matches-container {
   display: flex;
   justify-content: center;
-  align-items: center;
   min-height: 100vh;
 }
 
@@ -38,16 +37,16 @@
   background: linear-gradient(to top, #1e293b, #4f5db0);
 }
 
-.team-matches-container {
+.responsive-container {
   width: 90%;
-  max-width: 550px;
-  margin-top: 50px;
+  max-width: 500px;
+  margin-top: 48px;
 }
 
 @media screen and (min-width: 768px) {
-  .team-matches-container {
-    margin-top: 95px;
-    max-width: 1115px;
+  .responsive-container {
+    margin-top: 96px;
+    max-width: 1110px;
   }
 }
 
@@ -60,11 +59,11 @@
   justify-content: space-between;
   flex-wrap: wrap;
   padding-left: 0;
-  margin-top: 25px;
+  margin-top: 24px;
 }
 
 @media screen and (min-width: 768px) {
   .recent-matches-list {
-    margin-top: 30px;
+    margin-top: 32px;
   }
 }
